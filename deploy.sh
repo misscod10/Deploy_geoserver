@@ -14,4 +14,4 @@ server.number=
 server.built=
 EOF
 
-sed -i 127i/'<Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false" />' /usr/share/tomcat/conf/server.xml
+sed -i 127i'<Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false" />' /usr/share/tomcat/conf/server.xml
